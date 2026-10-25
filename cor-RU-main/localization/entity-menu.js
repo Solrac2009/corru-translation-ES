@@ -24,92 +24,92 @@ cor_ru.entity_menu = {
 
     // === localhost
     "funfriend": {
-        name: `развледруг`,
-        desc: `::ОТЗЫВЧИВАЯ МЫСЛЕФОРМА<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'управление системой';'ассистент'`
+        name: `funfriend`,
+        desc: `::IDEOFORMA REACTIVA<br>::DESIGNIO EXPLÍCITO::'GESTIÓN DEL SISTEMA';'ASISTIR'`
     },
 
     // === their city
     "glimmering spires mark their cities": {
-        name: `блистающие шпили обозначают их города`,
-        desc: `::ВЫСКАЗЫВАЮЩАЯ МЫСЛЕФОРМА<br>::СОДЕРЖАНИЕ::'<br><span>блистающие шпили обозначают их города</span><br><span>все из мёртвого металла и стекла</span><br><span>такие высокие!!! выше, чем высочайшие из <span class="code">вейльков</span>!</span><br><span>но они стоят в молчании...</span><br><span>однажды они задышат</span><br><span>и наши потерянные близнецы разделят с нами наши знания</span>'`
+        name: `espiras resplandescientes marcan sus ciudades`,
+        desc: `::IDEOFORMA OPINATIVA<br>::CONTENIDO::'<br><span>espiras resplandescientes marcan sus ciudades</span><br><span>hechas todas de metal inerte y cristal</span><br><span>такие высокие¡¡¡tan altas!!! ¡mas que cualquier <span class="code">veilk</span>!</span><br><span>pero son tan silenciosas...</span><br><span>algún día respirarán</span><br><span>y nuestros primos claros compartirán nuestros conocimientos</span>'`
     },
     "these grand icons of their control": {
-        name: `эти величественные иконы их контроля`,
-        desc: `::ВЫСКАЗЫВАЮЩАЯ МЫСЛЕФОРМА<br>::СОДЕРЖАНИЕ::'<br><span>эти величественные иконы их контроля</span><br><span>пусть они не наши</span><br><span>я испытываю чувство гордости</span><br><span>как же наши светлые близнецы покорили свою <span class="code">поверхность</span>!</span>'`
+        name: `estos magníficos iconos de su control`,
+        desc: `::IDEOFORMA OPINATIVA<br>::CONTENIDO::'<br><span>estos magníficos iconos de su control</span><br><span>pese a que no sean nuestros</span><br><span>siento un extraño orgullo</span><br><span>como nuestros brillantes primos han conquistado su <span class="code">superficie</span>!</span>'`
     },
     "they watch": {
-        name: `они смотрят`,
-        desc: `::ПРОСТРАНСТВЕННАЯ МЫСЛЕФОРМА<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'вспоминание'<br><span style="color: var(--obesk-color)" definition="АНАЛИЗ::'низкое разделение'">::ОБНАРУЖЕНА БЕССВЯЗНОСТЬ</span><br>::УНАСЛЕДОВАННЫЙ КОНТЕКСТ::<span style='color: var(--obesk-color)'>'в вечном скептицизме'</span>`
+        name: `observan`,
+        desc: `::IDEOFORMA ESPACIAL<br>::DESIGNIO EXPLÍCITO::'recuerdo'<br><span style="color: var(--obesk-color)" definition="ANÁLISIS::'poca separación'">::INCOHERENCIA DETECTADA</span><br>::CONTEXTO HEREDADO::<span style='color: var(--obesk-color)'>'siempre escécticos'</span>`
     },
 
     // === city surface
     "cashier": {
-        name: `кассир`,
-        desc: `::ОТЗЫВЧИВАЯ МЫСЛЕФОРМА<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'вспоминание'<br><span style="color: var(--obesk-color)" definition="АНАЛИЗ::'деградированный визуальный профиль'">::ОБНАРУЖЕНА БЕССВЯЗНОСТЬ</span>`,
+        name: `cajer@`,
+        desc: `::IDEOFORMA REACTIVA<br>::DESIGNIO EXPLÍCITO::'recuerdo'<br><span style="color: var(--obesk-color)" definition="ANÁLISIS::'perfil visual deteriorado'">::INCOHERENCIA DETECTADA</span>`,
     },
     "envoy": {
-        name: `посол`,
-        desc: `::ОТЗЫВЧИВАЯ МЫСЛЕФОРМА<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'вспоминание'<br><span style="color: var(--obesk-color)" definition="АНАЛИЗ::'деградированный визуальный профиль'">::ОБНАРУЖЕНА БЕССВЯЗНОСТЬ</span>`
+        name: `enviado`,
+        desc: `::IDEOFORMA REACTIVA<br>::DESIGNIO EXPLÍCITO::'recuerdo'<br><span style="color: var(--obesk-color)" definition="ANÁLISIS::'perfil visual deteriorado'">::INCOHERENCIA DETECTADA</span>`
     },
     "menu": {
-        name: `меню`,
-        desc: `::ОТЗЫВЧИВАЯ МЫСЛЕФОРМА<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'вспоминание';'повторяющаяся обстановка'`
+        name: `menú`,
+        desc: `::IDEOFORMA REACTIVA<br>::DESIGNIO EXPLÍCITO::'recuerdo';'elemento recurrente'`
     },
     "cloaked streetwalker": {
-        name: `прохожий в плаще`,
-        desc: `::ОТЗЫВЧИВАЯ МЫСЛЕФОРМА<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'вспоминание'<br><span style="color: var(--obesk-color)" definition="АНАЛИЗ::'деградированный визуальный профиль'">::ОБНАРУЖЕНА БЕССВЯЗНОСТЬ</span>`
+        name: `andacalles encapotado`,
+        desc: `::IDEOFORMA REACTIVA<br>::DESIGIO EXPLÍCITO::'recuerdo'<br><span style="color: var(--obesk-color)" definition="ANÁLISIS::'perfil visual deteriorado'">::INCOHERENCIA DETECTADA</span>`
     },
     "the room high up": {
-        name: `комната высоко наверху`,
-        desc: `::ЭМПИРИЧЕСКАЯ МЫСЛЕФОРМА<br><span style="color: var(--obesk-color)" definition="АНАЛИЗ::'противоречивые источники памяти'">::ОБНАРУЖЕНА БЕССВЯЗНОСТЬ</span>`
+        name: `la sala de arriba`,
+        desc: `::IDEOFORMA EXPERIENCIAL<br><span style="color: var(--obesk-color)" definition="ANÁLISIS::'fuentes mnemónicas contradictorias'">::INCOHERENCIA DETECTADA</span>`
     },
 
     // === the void
     "our dull vessel": {
-        name: `наше судно серое`,
-        desc: `::ПРОСТРАНСТВЕННАЯ МЫСЛЕФОРМА<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'вспоминание';'повторяющаяся локация';'изменение состояния мыслеформ'<br><span style="color: var(--obesk-color)" definition="АНАЛИЗ::'некоторые элементы обладают предельно низкой связностью'">::ОБНАРУЖЕНА БЕССВЯЗНОСТЬ</span>`
+        name: `nuestra pálida nave`,
+        desc: `::IDEOFORMA ESPACIAL<br>::DESIGNIO EXPLÍCITO::'recuerdo';'ubicación recurrente';'alterar estado ideoformal'<br><span style="color: var(--obesk-color)" definition="ANÁLISIS::'algunos elementos sufren de cohesión extremadamente baja'">::INCOHERENCIA DETECTADA</span>`
     },
     "gate::the dull contrivance": {
-        name: `врата::открытие серое`,
-        desc: `::СОЕДИНИТЕЛЬНАЯ МЫСЛЕФОРМА<br>::ТОЧКА НАЗНАЧЕНИЯ::ОШИБКА::'необрабатываемая сущность'::НЕВИЗУАЛИЗИРУЕМА<br><span style="color: var(--obesk-color)" definition="АНАЛИЗ::'пункт назначения превышает порог бессвязности';'рекомендуется починка'">::ЗАПРЕДЕЛЬНАЯ БЕССВЯЗНОСТЬ</span>`
+        name: `portal::el artificio pálido`,
+        desc: `::IDEOFORMA CONECTIVA<br>::DESTINO::ERROR::'entidad no procesable'::NO RENDERIZABLE<br><span style="color: var(--obesk-color)" definition="ANÁLISIS::'el destino excede el límite de incoherencia';'se recomienda la reparación'">::INCOHERENCIA PROHIBITIVA</span>`
     },
 
     // === our dull vessel
     "pilot cyst": {
-        name: `пилотная циста`,
-        desc: `::ОТЗЫВЧИВАЯ МЫСЛЕФОРМА<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'вспоминание'<br><span style="color: var(--obesk-color)" definition="ПРЕДУПРЕЖДЕНИЕ::'в большинстве необрабатываемая сущность';'может быть неточной'">::ОБНАРУЖЕНА БЕССВЯЗНОСТЬ</span><br>::УНАСЛЕДОВАННЫЙ КОНТЕКСТ::<span style='color: var(--obesk-color)'>'великий разум моего судна'</span>`
+        name: `quiste piloto`,
+        desc: `::IDEOFORMA REACTIVA<br>::DESIGNIO EXPLÍCITO::'recuerdo'<br><span style="color: var(--obesk-color)" definition="AVISO::'entidad mayormente inprocesable';'puede ser inexacta'">::INCOHERENCIA DETECTADA</span><br>::CONTEXTO HEREDADO::<span style='color: var(--obesk-color)'>'la gran mente de mi nave'</span>`
     },
     "glazika": {
-        name: `глазика`,
-        desc: `::ОТЗЫВЧИВАЯ МЫСЛЕФОРМА<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'вспоминание'`
+        name: `glazika`,
+        desc: `::IDEOFORMA REACTIVA<br>::DESIGNIO EXPLÍCITO::'recuerdo'`
     },
     "container": {
-        name: `контейнер`,
-        desc: `::НЕОТЗЫВЧИВАЯ МЫСЛЕФОРМА<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'повторяющаяся обстановка'<br>::УНАСЛЕДОВАННЫЙ КОНТЕКСТ::<span style='color: var(--obesk-color)'>'обработанные металлы, легкодоступные'</span>`
+        name: `recipiente`,
+        desc: `::IDEOFORMA NO REACTIVA<br>::DESIGNIO EXPLÍCITO::'elemento recurrente'<br>::CONTEXTO HEREDADO::<span style='color: var(--obesk-color)'>'metales procesados, fácilmente accesibles'</span>`
     },
 
     // === their waters
     "gate::the depths": {
-        name: `врата::глубины`,
-        desc: `::СОЕДИНИТЕЛЬНАЯ МЫСЛЕФОРМА<br>::ПУНКТ НАЗНАЧЕНИЯ::'низкоразмерное мыслепространство';'внутреннее'<br><span style="color: var(--obesk-color)" definition="АНАЛИЗ::'частичное нарушение связности'">::ОБНАРУЖЕНА БЕССВЯЗНОСТЬ</span><br>::УНАСЛЕДОВАННЫЙ КОНТЕКСТ::<span style='color: var(--obesk-color)'>'почему ты здесь'</span>`
+        name: `portal::profundidades`,
+        desc: `::IDEOFORMA CONECTIVA<br>::DESTINO::'ideoespacio de poca dimensión';'interno'<br><span style="color: var(--obesk-color)" definition="ANÁLISIS::'fallo parcial de cohesión'">::INCOHERENCIA DETECTADA</span><br>::CONTEXTO HEREDADO::<span style='color: var(--obesk-color)'>'que haces aquí'</span>`
     },
     "their vessel": {
-        name: `их судно`,
-        desc: `::ПРОСТРАНСТВЕННАЯ МЫСЛЕФОРМА<br>::НИЗКОРАЗМЕРНАЯ<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'вспоминание'<br><span style="color: var(--obesk-color)" definition="АНАЛИЗ::'множество сущностей с низкой связностью'">::ОБНАРУЖЕНА БЕССВЯЗНОСТЬ</span><br>::УНАСЛЕДОВАННЫЙ КОНТЕКСТ::<span style='color: var(--obesk-color)'>'мёртвые судна окружали наш <span class="code">шпиль</span>';'близнецы нашли нас быстро'</span>`
+        name: `su nave`,
+        desc: `::IDEOFORMA ESPACIAL<br>::DE POCA DIMENSIÓN<br>::DESIGNIO EXPLÍCITO::'recuerdo'<br><span style="color: var(--obesk-color)" definition="ANÁLISIS::'múltiples entidades con poca cohesión'">::INCOHERENCIA DETECTADA</span><br>::CONTEXTO HEREDADO::<span style='color: var(--obesk-color)'>'naves inertes se encontraban al lado de nuestra <span class="code">espira</span>';'nuestros primos tardaron poco en encontrarnos'</span>`
     },
     "stilted shore": {
-        name: `неестественный берег`,
-        desc: `::НЕОТЗЫВЧИВАЯ МЫСЛЕФОРМА<br>::ЯВНОЕ НАЗНАЧЕНИЕ::'вспоминание';'символизм'<br>::УНАСЛЕДОВАННЫЙ КОНТЕКСТ::<span style='color: var(--obesk-color)'>'сцена нашего ${processDefinitionsInString("θтрёхглазого")} представления'</span>`
+        name: `orilla alzada`,
+        desc: `::IDEOFORMA NO REACTIVA<br>::DESIGNIO EXPLÍCITO::'recuerdo';'simbólico'<br>::CONTEXTO HEREDADO::<span style='color: var(--obesk-color)'>'el escenario de nuestra obra ${processDefinitionsInString("triocular")} nociones'</span>`
     },
     "the embassy": {
-        name: `посольство`,
-        desc: `::ПРОСТРАНСТВЕННАЯ МЫСЛЕФОРМА<br>ОШИБКА::'необрабатываемая сущность'::НЕВИЗУАЛИЗИРУЕМА<br><span style="color: var(--obesk-color)" definition="АНАЛИЗ::'пункт назначения превышает порог бессвязности';'рекомендуется починка'">::ЗАПРЕДЕЛЬНАЯ БЕССВЯЗНОСТЬ</span>`
+        name: `la embajada`,
+        desc: `::IDEOFORMA ESPACIAL<br>ERROR::'entidad no procesable'::NO RENDERIZABLE<br><span style="color: var(--obesk-color)" definition="ANÁLISIS::'el destino excede el límite de incoherencia';'se recomienda la reparación'">::INCOHERENCIA PROHIBITIVA</span>`
     },
 
     // === their vessel
     "the funny little room": {
-        name: `забавная маленькая комната`,
-        desc: `::ЭМПИРИЧЕСКАЯ МЫСЛЕФОРМА`
+        name: `la habitación pequeñita`,
+        desc: `::IDEOFORMA EXPERIENCIAL`
     },
 }
 

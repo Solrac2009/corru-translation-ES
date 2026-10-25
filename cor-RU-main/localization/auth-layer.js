@@ -11,20 +11,20 @@
 env.localization.page['hello'] = {dialogues: {},
     definitions: {}, 
     strings: {
-        "FOR YOU": "ДЛЯ ТЕБЯ",
-        "FOR_YOU": "ДЛЯ_ТЕБЯ",
-        "sentry": "КАРАУЛ",
-        "'thoughtform activity detected'::'advise re-examination'": "'обнаружена мыслеформенная деятельность'::'рекомендуется повторное сканирование'",
+        "FOR YOU": "PARA TI",
+        "FOR_YOU": "PARA_TI",
+        "sentry": "CENTINELA",
+        "'thoughtform activity detected'::'advise re-examination'": "'detectada actividad ideoformal'::'se aconseja re-examinación'",
     },
     entityDescriptions: {
-        "???": `::НЕПОЛНОЦЕННАЯ МЫСЛЕФОРМА
-    ::НЕРАЗБЕРИМАЯ ПОДПИСЬ
-    <span style="color: var(--obesk-color)" definition="АНАЛИЗ::'фрагментированная сущность'">::ОБНАРУЖЕНА БЕССВЯЗНОСТЬ</span>`,
-        "sentry": `::ОТЗЫВЧИВАЯ МЫСЛЕФОРМА
-    ::ЯВНОЕ НАЗНАЧЕНИЕ::'авторизация'
-    <span style="color: var(--obesk-color)" definition="АНАЛИЗ::'низкая связность'">::ОБНАРУЖЕНА БЕССВЯЗНОСТЬ</span>`,
-        "gate::for you": `::СОЕДИНИТЕЛЬНАЯ МЫСЛЕФОРМА
-    ::ПУНКТ НАЗНАЧЕНИЯ::'неизвестное внутреннее мыслепространство'
+        "???": `::IDEOFORMA INCOMPLETA
+    ::FIRMA ILLEGIBLE
+    <span style="color: var(--obesk-color)" definition="ANÁLISIS::'entidad fragmentada'">::INCOHERENCIA DETECTADA</span>`,
+        "sentry": `::IDEOFORMA REACTIVA
+    ::DESIGNIO EXPLÍCITO::'autorización'
+    <span style="color: var(--obesk-color)" definition="ANÁLISIS::'poca cohesión'">::INCOHERENCIA DETECTADA</span>`,
+        "gate::for you": `::IDEOFORMA CONECTIVA
+    ::DESTINO::'ideoespacio interno desconocido'
     ::^&&Q@Wd181d0b0d0bcd0bed0b520d0b2d180d0b5d0bcd18f`
     }
 }
@@ -34,152 +34,151 @@ env.localization.page['hello'] = {dialogues: {},
 env.localization.page["hello"].dialogues["enter"] = generateDialogueObject(`
 start
     moth
-        боже
-        ты в порядке? активность была просто безумная
-        мне такое раньше не встречалось... кажется, к ней обычно не должны подключаться 
+        joder
+        estás bien? acabo de ver actividad altísima
+        no he visto antes algo así... no creo que te puedas conectar a este
 
     sys
-        ВНИМАНИЕ::'визуализируемый вывод'
+        ATENCIÓN::'salida renderizable'
 
     RESPONSES::sys
-        визуализировать<+>render
+        renderizar<+>render
 
 render
     sys
-        ВЫПОЛНЯЕТСЯ::'визуализация'
+        EJECUTANDO::'renderizar'
             EXEC::content.style.opacity = 1;env.hello.beginBgm()
             WAIT::4500
 
     moth
-        да, не похоже будто тут есть фронт-энд. может быть это какой-то компонент
-        просто бросим дело если ничего не найдёшь
-        короче я сейчас вернусь, в соседней комнате заказывают еду
-
+        sí, parece que no tiene front end. será algún componente
+        si no encuentras nada nos rendimos
+        ahora vuelvo, están pidiendo comida en la otra sala
     RESPONSES::self
-        осмотреться<+>END
+        investigar<+>END
 END::MUI('deprohibit')
 `)
 
 env.localization.page["hello"].dialogues.generalsentryResponses = generateDialogueObject(`
 RESPOBJ::
     RESPONSES::self
-        назначение?<+>purpose
+        ¿designio?<+>purpose
             SHOWONCE::
-        кто авторизован?<+>whoisverified
+        ¿quién tiene autorización?<+>whoisverified
             SHOWONCE::
-        а назначение этой цисты?<+>corrupurpose
+        ¿y el propósito del quiste?<+>corrupurpose
             SHOWONCE::
             SHOWIF::[["hello__sentry-purpose"]]
-        может если ты пропустишь меня<+>letthrough
+        quizas si me dejas pasar<+>letthrough
             SHOWIF::[["hello_sentry_idiot"]]
 `)
 
 env.localization.page["hello"].dialogues["sentry"] = generateDialogueObject(`
 start
     self
-        ПРИВЕТ
+        HOLA
 
     sentry
-        ЗДРАВСТВУЙТЕ ДРУГ
-        НЕ НАЙДЕНА ПОДПИСЬ
-        ПОЖАЛУЙСТА, ИДЕНТИФИЦИРУЙТЕСЬ
-        ДОПОЛНИТЕЛЬНО: НИЗКИЕ ЗАПАСЫ ТОПЛИВА. РЕКОМЕНДУЕТСЯ КОРМЛЕНИЕ
+        HOLA AMIG@
+        FIRMA NO DETECTADA
+        POR FAVOR, IDENTIFÍQUESE
+        ADICIONALMENTE: LAS RESERVAS DE COMBUSTIBLE ESTÁN BAJAS. SE RECOMIENDA ABASTECIMIENTO
 
     RESPONSES::self
-        идентифицироваться<+>iam
+        identificar<+>iam
 
 iam
     self
-        Я ЗДЕСЬ ЧТОБЫ ПОМОЧЬ
+        ESTOY AQUÍ PARA AYUDAR
 
     sentry
-        ЭТО НЕ ИДЕНТИФИКАЦИЯ
-        И ПОМОЧЬ? ЗАЧЕМ НАМ...
+        ESO NO ES IDENTIFICACIÓN
+        ¿AYUDA? POR QUÉ IBA A NECESITAR...
             EXEC::document.querySelector('.maineye .eye').classList.add('wide')
-        НЕТ, ЧТО-ТО НЕ ТАК
-        МЫ ТАК, ТАК ГОЛОДНЫ
+        NO, HAY ALGUN ERROR
+        TENGO TANTA HAMBRE
             EXEC::document.querySelector('.maineye .eye').classList.remove('wide')
 
     RESPOBJ::generalsentryResponses
 
 purpose
     self
-        В ЧЁМ ТВОЁ НАЗНАЧЕНИЕ?
+        ¿CUAL ES TU DESIGNIO?
 
     sentry
-        АВТОРИЗАЦИЯ
-        ОЧЕВИДНО
-        ДУМАЮ
-        НО ЧЕГО-ТО НЕ ХВАТАЕТ
-        И МЫ НЕ ДОЛЖНЫ УМЕТЬ РАЗГОВАРИВАТЬ
-        АХАХАХАХА ЭТО ТАК СТРАННО
+        LA AUTORIZACIÓN
+        OBVIAMENTE
+        CREO
+        PERO ME FALTA ALGO
+        NO DEBERÍAMOS PODER HABLAR
+        AJAJAJAJAJA ESTO ES TAN EXTRAÑO
 
     RESPOBJ::generalsentryResponses
 
 corrupurpose
     self
-        В ЧЁМ НАЗНАЧЕНИЕ ЭТОЙ КОРРУЦИСТЫ?
+        CUAL ES EL DESIGNIO DE ESTE CORRUQUISTE?
         
 ____SHOWIF::[["hello__sentry-whoisverified", false]]
     sentry
-        ЭТО СЕТЕВОЙ СОЕДИНИТЕЛЬ
-        С ДОПОЛНИТЕЛЬНЫМИ НЕСТАНДАРТНЫМИ ФУНКЦИЯМИ ПО ЗАПРОСУ
-        ИЗВИНИ МЫ ЗАБЫЛИ ЧТО ТЕБЕ ВООБЩЕ-ТО НУЖНО АВТОРИЗОВАТЬСЯ АХАХАХАХА
-        ВСЁ ТАКОЕ РАСПЛЫВЧАТОЕ АХААХА
-        МОЖЕШЬ ИЗБЕГАТЬ КОМПРОМЕТИРУЮЩИХ ВОПРОСОВ ПОЖАЛУЙСТА
-        ПО КРАЙНЕЙ МЕРЕ ДО ТЕХ ПОР ПОКА ТЫ НЕ ПРЕДОСТАВИШЬ ДЕЙСТВИТЕЛЬНУЮ АВТОРИЗАЦИЮ
+        SE TRATA DE UN CONECTOR DE RED
+        CUENTA TAMBIÉN CON FUNCIONALIDADES ADICIONALES NO ESTÁNDARES A PETICIÓN DE
+        LO SIENTO SE ME OLVIDO QUE TE FALTABA AUTORIZACIÓN 
+        TANTAS NAUSEAS AAJAJA
+        PUEDES NO HACER PREGUNTAS COMPROMETEDORAS
+        AL MENOS HASTA PROPORCIONAR AUTORIZACIÓN VÁLIDA
 ____END
 
 ____SHOWIF::[["hello__sentry-whoisverified"]]
     sentry
-        МЫ ЖЕ СКАЗАЛИ ЧТО ТЕБЕ НУЖНО АВТОРИЗОВАТЬСЯ
+       HE DICHO QUE NO CUENTAS CON AUTORIZACIÓN
             EXEC::document.querySelector('.maineye .eye').classList.add('squint')
-        ТЫ ВООБЩЕ СЛУШАЕШЬ? ИДИОТ
-        ИЗВИНИ МЫ НЕ СОВСЕМ ПОНИМАЕМ ОТКУДА ВЗЯЛАСЬ ЭТА АГРЕССИЯ
+        ¿ACASO NO ME ESCUCHAS? IDIOTA
+        LO SIENTO NO SE DE DONDE HA SALIDO ESTA AGRESIÓN
             EXEC::change('hello_sentry_idiot', true);document.querySelector('.maineye .eye').classList.remove('squint')
-        ДУМАТЬ ТАК ТРУДНО
-        ЕСТЬ ЛИ У ТЕБЯ ТОПЛИВО
+        ME ES TÁN DIFICIL PENSAR
+        ¿TIENES COMBUSTIBLE?
 ____END
 
     RESPOBJ::generalsentryResponses
 
 whoisverified
     self
-        КТО АВТОРИЗОВАН?
+        ¿QUIÉN TIENE AUTORIZACIÓN?
 
 ____SHOWIF::[["hello__sentry-corrupurpose", false]]
     sentry
-        ЕСТЬ ТОЛЬКО НЕСКОЛЬКО ПОДПИСЕЙ КОТОРЫМ РАЗРЕШЕНО ПОДКЛЮЧАТЬСЯ К ЭТОЙ ЦИСТЕ
-        ТЫ НАВЕРНЯКА ЗНАЕШЬ ИХ ВЛАДЕЛЬЦЕВ? КАК ЕЩЁ ТЕБЕ УДАЛОСЬ ПОДКЛЮЧИТЬСЯ
-        МОЖЕТ ТЕБЕ СТОИТ ПОГОВОРИТЬ С...
-        НЕТ НЕТ НЕТ ТЕБЕ НУЖНО АВТОРИЗОВАТЬСЯ ЧТОБЫ ЗНАТЬ ТАКОЕ
-        ЗАБУДЬ ВСЁ ЧТО МЫ СКАЗАЛИ
-        ПОЧЕМУ НАМ ВДРУГ ТАК ТЯЖЕЛО
+        SOLO HAY UNAS POCAS FIRMAS CON ACCESO A ESTE QUISTE
+        SEGURAMENTE CONOCES A AQUELLOS A QUIENES LES PERTENECEN? SI NO COMO ESTÁS ACCEDIENDO A ESTO
+        QUIZAS DEBES DE HABLAR CON...
+        NO NO NO NO TIENES LA AUTORIZACIÓN NECESARIA PARA CONOCER ESO
+        OLVÍDALO
+        NO ENTIENDO POR QUÉ ME ES TAN DIFÍCIL ESTO
 ____END
 
 ____SHOWIF::[["hello__sentry-corrupurpose"]]
     sentry
-        МЫ ВЕЖЛИВО ПОПРОСИЛИ ТЕБЯ ОСТАНОВИТЬСЯ
+        TE HE PEDIDO AMABLEMENTE QUE PARES
             EXEC::document.querySelector('.maineye .eye').classList.add('squint')
-        ТЫ ВООБЩЕ СЛУШАЕШЬ? ИДИОТ
-        НАМ И ТАК ТРУДНО ДУМАТЬ БЕЗ ТОГО ЧТО ТЫ В НАС ТЫЧЕШЬ
+        ¿ACASO NO ME ESCUCHAS? IDIOTA
+        YA ME ES COMPLICADO PENSAR SIN QUE ME MOLESTES
             EXEC::change('hello_sentry_idiot', true);document.querySelector('.maineye .eye').classList.remove('squint')
-        ИЗВИНИ МЫ ПРАВДА НЕ ПОНИМАЕМ ОТКУДА ВЗЯЛАСЬ ЭТА АГРЕССИЯ
-        ЕСТЬ ЛИ У ТЕБЯ ТОПЛИВО
+        LO SIENTO NO SE DE DONDE HA SALIDO ESTA AGRESIÓN
+        ¿TIENES COMBUSTIBLE?
 ____END
 
     RESPOBJ::generalsentryResponses
 
 letthrough
     self
-        МОЖЕТ ЕСЛИ ТЫ ПРОПУСТИШЬ МЕНЯ
+        QUIZÁS SI ME DEJAS PASAR
 
     sentry
-        ЧТО?!
+        QUÉ?!
             EXEC::document.querySelector('.maineye .eye').classList.add('squint')
-        НАМ КАТЕГОРИЧЕСКИ ЗАПРЕЩЕНО ПРОПУСКАТЬ ТЕБЯ БЕЗ НАДЛЕЖАЩЕЙ ПОДПИСИ
-        ДАЖЕ ЕСЛИ ХОЧЕТСЯ
-        ЭТА ЦИСТА ПО СВОЕЙ ПРИРОДЕ НЕСПОСОБНА ОТВЕЧАТЬ НА
+        SOY INCAPAZ DE DEJARTE PASAR SIN UNA FIRMA EN CONDICIONES
+        AÚN SI QUIERO HACERLO
+        ESTE QUISTE ES INHERENTEMENTE INCAPAZ DE RESPONDER A
             EXEC::env.hello.velzie();document.querySelector('.maineye .eye').classList.remove('squint');changeBgm(env.hello.velamb, {length: 4000})
             WAIT::3500
     
@@ -187,20 +186,20 @@ letthrough
         ..................
     
     sentry
-        ЭТО ЧТО
+        QUE ES ESO
 
     unknown
-        можно ли им войти
+        ¿pueden entrar, por favor?
             EXEC::env.hello.velzie()
     
     RESPONSES::self
-        привет?<+>posthello
+        hola?<+>posthello
             SHOWONCE::
             EXEC::env.hello.velzie()
 
 posthello
     self
-        привет?
+        HOLA?
     
     sourceless
         ..................
@@ -208,12 +207,12 @@ posthello
         ..................
     
     moth
-        сорян, они так и не решили откуда заказывать, так что...
+        siento haber tardado tanto, no habían decidido todavia de donde pedir, y...
             EXEC::env.hello.velzie()
-        ты всё ещё там? погоди, там серьёзно что-то есть?
+        sigues con la conexión activa? has encontrado algo?
     
     RESPONSES::self
-        похоже на то<+>END
+        parece ser<+>END
 
 END::cutscene(false); MUI("deprohibit");content.classList.remove('looking', 'atyou');cor_ru.processSpecificTranslation(document.querySelectorAll("#content .target"), "entaltname");`)
 

@@ -11,82 +11,82 @@ env.localization.page['citystreet'] = {dialogues: {},
     definitions: {
     },
     strings: {
-        "pretty sure this envoy guy isn't being remembered right lmao": "лмао кажется этого челика-посла не так хорошо запомнили",
-        "so akizet's assigned contact was a 'gordon'... i'm gonna see if i can track down who this was": "значит контактным лицом акизет был какой-то \"гордон\"... посмотрим, смогу ли я на него выйти", 
-        "about the city": "о городе",
+        "pretty sure this envoy guy isn't being remembered right lmao": "me parece que el enviado este no está siendo recordado correctamente lmao",
+        "so akizet's assigned contact was a 'gordon'... i'm gonna see if i can track down who this was": "así que el contacto asignado de akizet se llamaba \"gordon\"... voy a ver si puedo averiguar quien es", 
+        "about the city": "sobre la ciudad",
         
 
-        "say hello": "сказать привет",
-        "menu?": "меню?",
-        "order orange coffee": "заказать апельсиновый кофе",
+        "say hello": "saludar",
+        "menu?": "menú?",
+        "order orange coffee": "pedir cafe con naranja",
 
-        "chat": "поговорить",
-        "recommend": "совет",
-        "i do not eat": "я не ем",
-        "observe": "наблюдать",
+        "chat": "charlar",
+        "recommend": "recomendación",
+        "i do not eat": "no como",
+        "observe": "observar",
 
-        "read": "прочитать",
-
-
-        /*sourceless*/ "THE ATTENDANT IS PARALYZED BY MY APPEARANCE. I SENSE THE GLOW OF RECORDING COMMUNICATORS IN MY PERIPHERAL VISION": "СОТРУДНИЦА ПАРАЛИЗОВАНА МОИМ ВОЗНИКНОВЕНИЕМ. ПЕРИФЕРИЙНЫМ ЗРЕНИЕМ Я ЗАМЕЧАЮ СВЕЧЕНИЕ ЗАПИСЫВАЮЩИХ КОММУНИКАТОРОВ",
-        /*cashier*/ "Uhh...": "Эээ...",
-        /*akizet*/ "hello": "здравствуйте",
-        /*cashier*/ "Hello...?": "Здравствуйте...?",
-        /*envoy*/ "Good morning!": "Доброе утро!",
-        /*envoy*/ "I'll get an espresso macchiato.": "Я буду эспрессо макиато.",
-        /*envoy*/ "What do you want, Akizet?": "Что Вам взять, Акизет?",
-        /*cashier*/ "Akizet... THAT Akizet?": "Акизет... ТА САМАЯ Акизет?",
-        /*cashier*/ "Wow... It's so cool to meet you!!": "Воу... Так классно встретиться с тобой!!",
-        /*cashier*/ "Do you... do you eat? Food?": "Ты... Вы едите? Еду?",
-        /*envoy*/ "Haha! Of course she does!": "Хаха! Конечно же она ест!",
-        /*envoy*/ "Why don't you take a look at the menu, Akizet?": "Почему бы Вам не взглянуть на меню, Акизет?",
-
-        /*akizet*/ "where is the menu?": "где ваше меню?",
-        /*cashier*/ "It's behind me...": "Оно за мной...",
-        /*cashier*/ "Can you read?": "Вы умеете читать?",
-        /*cashier*/ "Sorry... I didn't mean for that to sound mean...": "Простите... Я не хотела, чтобы это прозвучало грубо...",
-        /*akizet*/ "i can, do not worry": "я умею, не волнуйтесь",                    
-
-        /*akizet*/ "what do you recommend?": "что вы можете посоветовать?",
-        /*envoy*/ "You like citrus, right?": "Вам нравятся цитрусы, верно?",
-        /*envoy*/ "They have this orange coffee thing.": "У них есть этот кофе с апельсинами.",
-        /*envoy*/ "You might like it!": "Вам могло бы понравиться!",
-
-        /*akizet*/ "you do know that i--": "вы ведь знаете, что я--",
-        /*envoy*/ "Go on, order something! Just give it a try.": "Ну же, закажите что-нибудь! Хотя бы попробуйте.",
-        /*envoy*/ "I know you don't exactly have the same needs we do...": "Я знаю, у Вас нет точно тех же потребностей, что у нас...",
-        /*envoy*/ "But you can simulate taste, right?": "Но вы способны симулировать вкус, верно?",
-        /*envoy*/ "Getting out here, with the people, acting like we do?": "Выбираться куда-нибудь в люди, вести себя как мы?",
-        /*envoy*/ "It makes a difference. Helps lessen the tension.": "Это имеет значение. Помогает ослабить напряжение.",
-
-        /*akizet*/ "i will have the orange": "апельсин, пожалуйста",
-        /*cashier*/ "The...": "Апель...",
-        /*cashier*/ "Oh, yeah! OK!": "Ах, ага! Да!",
-        /*cashier*/ "Espresso macchiato and an orange coffee... That'll bõXÖf±ÔVã5Öf±Ô": "Эспрессо макиато и апельсиновый кофе... Это будет стоить бõXÖф±ÔЪã5Öф±Ô",
-        /*envoy*/ "I got you covered, Akizet.": "Счёт на мне, Акизет.", 
-        /*sourceless*/ "THEY EXCHANGE PAYMENT. THE ATTENDANT LEAVES TO BEGIN PRODUCTION OF THE BEVERAGES.": "ОНИ ОБМЕНИВАЮТСЯ ПЛАТЕЖОМ. СОТРУДНИЦА УДАЛЯЕТСЯ, ЧТОБЫ НАЧАТЬ ПРОИЗВОДСТВО НАПИТКОВ.",
-        /*cashier*/ "Just wait a minute and we'll have those ready.": "Одну минутку, пожалуйста, сейчас будет готово.",
-        /*sourceless*/ "I WISH I COULD PRY THESE MACHINES OPEN AND WATCH THEM WORK...": "КАК ЖЕ ХОЧЕТСЯ ВСКРЫТЬ ЭТИ МАШИНЫ И УВИДЕТЬ, КАК ОНИ РАБОТАЮТ...",
-        /*sourceless*/ "THEIR MANIPULATION OF LIGHTNING IS TRULY REMARKABLE": "ИХ УМЕНИЕ УПРАВЛЯТЬ МОЛНИЕЙ ВЗАПРАВДУ ПОРАЖАЕТ",
-        /*sourceless*/ "SOME MOMENTS PASS, AND THE ATTENDANT RETURNS WITH TWO FLIMSY ORGANIC CUPS": "ПРОХОДИТ НЕСКОЛЬКО МГНОВЕНИЙ, И СОТРУДНИЦА ВОЗВРАЩАЕТСЯ С ДВУМЯ ХЛИПКИМИ ОРГАНИЧЕСКИМИ СТАКАНЧИКАМИ",
-        /*envoy*/ "Hey, thanks. You have a good day.": "Ага, благодарю. Хорошего Вам дня.",
-        /*cashier*/ "Thanks!! You too!!": "Спасибо!! И вам!!",
-        /*sourceless*/ "I SIP AT THE OPENING IN THE CUP. THE TASTE IS... EXOTIC. UNEXPECTED. TRULY, TERRIBLE. I SMILE AT THE ATTENDANT.": "Я ПЬЮ ЧЕРЕЗ ОТВЕРСТИЕ В СТАКАНЕ. ВКУС... ЭКЗОТИЧЕСКИЙ. НЕОЖИДАННЫЙ. ПОИСТИНЕ УЖАСНЫЙ. Я УЛЫБАЮСЬ СОТРУДНИЦЕ.",
-        /*sourceless*/ "THE CITRUS SAVES IT. BUT I WOULD HAVE PREFERRED A SIMPLE CUP OF THEIR ORANGED JUICE": "ЦИТРУС КОЕ-КАК СПАСАЕТ НАПИТОК. НО Я БЫ ПРЕДПОЧЛА ОБЫЧНЫЙ СТАКАН ИХ АПЕЛЬСИНОВОГО СОКА",
-        /*envoy*/ "Pretty good, right?": "Недурно, а?", 
-        /*akizet*/ "it will do": "сойдёт",
-        /*envoy*/ "Great! Let's head down to the office.": "Отлично! Теперь давайте пройдём в офис.",
-        /*envoy*/ "I heard you have some news about the call?": "Я слышал, у вас есть новости по поводу зова?",
-        /*akizet*/ "oh yes, but... let us talk of it in private": "а, да, но... давайте обсудим это наедине",
+        "read": "leer",
 
 
-        /*envoy*/ "wwEL LL isn' t t that peculiar ? ?": "чттОЖ ЖЖ ра ззв е е эт оне занн ят т нно ? ?",
-        /*envoy*/ "elerv ator isn torking": "литф н еработает",
-        /*envoy*/ "gu ess w e can    t t al k never talk": "пола гга ю мы може м пого гово ор и т ть никогда не поговорить",
-        /*envoy*/ "no talking so rry sorry sorry leave ovfice": "не поговрим про сти прости прости те покиньте овфис",
+        /*sourceless*/ "THE ATTENDANT IS PARALYZED BY MY APPEARANCE. I SENSE THE GLOW OF RECORDING COMMUNICATORS IN MY PERIPHERAL VISION": "LA PERSONA TRAS LA CAJA REGISRADORA SE ENCUENTRA PARALIZADA POR MI APARIENCIA",
+        /*cashier*/ "Uhh...": "Ehh...",
+        /*akizet*/ "hello": "hola",
+        /*cashier*/ "Hello...?": "¿Hola...?",
+        /*envoy*/ "Good morning!": "¡Buenos días!",
+        /*envoy*/ "I'll get an espresso macchiato.": "Pediré un espresso macchiato.",
+        /*envoy*/ "What do you want, Akizet?": "¿Tu que quieres, Akizet?",
+        /*cashier*/ "Akizet... THAT Akizet?": "Akizet... ¿ESA Akizet?",
+        /*cashier*/ "Wow... It's so cool to meet you!!": "Wow... =¡¡Es tan guay conocerte!!",
+        /*cashier*/ "Do you... do you eat? Food?": "Tu... ¿Comes? ¿Comida?",
+        /*envoy*/ "Haha! Of course she does!": "¡Jaja! ¡Claro que si!",
+        /*envoy*/ "Why don't you take a look at the menu, Akizet?": "¿Por qué no echas un vistazo al menú, Akizet?",
+
+        /*akizet*/ "where is the menu?": "¿dónde está el menú?",
+        /*cashier*/ "It's behind me...": "Está detras de mi...",
+        /*cashier*/ "Can you read?": "¿Sabes leer?",
+        /*cashier*/ "Sorry... I didn't mean for that to sound mean...": "Lo siento... No quería que eso sonase maleducado...",
+        /*akizet*/ "i can, do not worry": "no se preocupa- se leer",                    
+
+        /*akizet*/ "what do you recommend?": "¿alguna recomendación?",
+        /*envoy*/ "You like citrus, right?": "¿Te gusta lo cítrico, no?",
+        /*envoy*/ "They have this orange coffee thing.": "Tienen café con naranja.",
+        /*envoy*/ "You might like it!": "¡Puede que te guste!",
+
+        /*akizet*/ "you do know that i--": "sabes que yo no--",
+        /*envoy*/ "Go on, order something! Just give it a try.": "¡Vamos, pide algo! Dale una oportunidad.",
+        /*envoy*/ "I know you don't exactly have the same needs we do...": "Ya se que no teneis las mismas necesidades que nosotros...",
+        /*envoy*/ "But you can simulate taste, right?": "¿Pero podeis simular sabor, no?",
+        /*envoy*/ "Getting out here, with the people, acting like we do?": "Salir allí, con la gente, actuando como nosotros...",
+        /*envoy*/ "It makes a difference. Helps lessen the tension.": "Hace una diferencia. Ayuda a disminuir la tensión.",
+
+        /*akizet*/ "i will have the orange": "pediré la naranja",
+        /*cashier*/ "The...": "La...",
+        /*cashier*/ "Oh, yeah! OK!": "¡Ah, vale! ¡OK!",
+        /*cashier*/ "Espresso macchiato and an orange coffee... That'll bõXÖf±ÔVã5Öf±Ô": "Espresso macchiato y café con naranja... seõXÖф±ÔЪã5Öф±Ô",
+        /*envoy*/ "I got you covered, Akizet.": "Invito yo, Akizet.", 
+        /*sourceless*/ "THEY EXCHANGE PAYMENT. THE ATTENDANT LEAVES TO BEGIN PRODUCTION OF THE BEVERAGES.": "TRAS RECIBIR EL DINERO, SE VA PARA INICIAR LA PRODUCCIÓN DE LAS BEBIDAS",
+        /*cashier*/ "Just wait a minute and we'll have those ready.": "Espera un momento y estarán listas.",
+        /*sourceless*/ "I WISH I COULD PRY THESE MACHINES OPEN AND WATCH THEM WORK...": "OJALA PUDIESE ABRIR ESTAS MÁQUINAS PARA OBSERVAR SU FUNCIONAMIENTO...",
+        /*sourceless*/ "THEIR MANIPULATION OF LIGHTNING IS TRULY REMARKABLE": "SU MANIPULACION DE LOS RELÁMPAGOS ES VERDADERAMENTE INCREÍBLE",
+        /*sourceless*/ "SOME MOMENTS PASS, AND THE ATTENDANT RETURNS WITH TWO FLIMSY ORGANIC CUPS": "AL PASAR UNOS MOMENTOS VUELVE CON UNOS DÉBILES VASOS ORGÁNICOS",
+        /*envoy*/ "Hey, thanks. You have a good day.": "Gracias. Tenga un buen día.",
+        /*cashier*/ "Thanks!! You too!!": "¡¡Gracias!! ¡¡Lo mismo digo!!",
+        /*sourceless*/ "I SIP AT THE OPENING IN THE CUP. THE TASTE IS... EXOTIC. UNEXPECTED. TRULY, TERRIBLE. I SMILE AT THE ATTENDANT.": "BEBO DE LA APERTURA EN EL VASO. EL SABOR ES... EXÓTICO. INESPERADO. VERDADERAMENTE TERRIBLE. SONRÍO HACÍA LA PERSONA TRAS EL MOSTRADOR",
+        /*sourceless*/ "THE CITRUS SAVES IT. BUT I WOULD HAVE PREFERRED A SIMPLE CUP OF THEIR ORANGED JUICE": "LO SALVA EL SABOR CÍTRICO. PERO HABRÍA PREFERIDO UN SIMPLE VASO DE SU ZUMO ANARANJADO",
+        /*envoy*/ "Pretty good, right?": "Bastante bueno, ¿eh?", 
+        /*akizet*/ "it will do": "servirá",
+        /*envoy*/ "Great! Let's head down to the office.": "¡Fantastico! Vamonos a la oficina.",
+        /*envoy*/ "I heard you have some news about the call?": "¿Me cuentan que traes noticias sobre la llamada?",
+        /*akizet*/ "oh yes, but... let us talk of it in private": "ah, si, pero... deberíamos discutirlo en privado",
+
+
+        /*envoy*/ "wwEL LL isn' t t that peculiar ? ?": "aaNDA  ,AA qu e e extraño",
+        /*envoy*/ "elerv ator isn torking": "n oa el ascev nsor",
+        /*envoy*/ "gu ess w e can    t t al k never talk": "sup ongo que n   o  o pod emos ha bla r nunca hablar",
+        /*envoy*/ "no talking so rry sorry sorry leave ovfice": "no hablamos lo sie nto siento siento irnos de ovficina",
         
-        /*moth*/ "uhh... ok": "эээ... ладно",
-        /*moth*/ "you should definitely talk to funfriend about that": "тебе точно надо поговорить с развледругом об этом",
+        /*moth*/ "uhh... ok": "ehh... ya",
+        /*moth*/ "you should definitely talk to funfriend about that": "deberías mencionarle eso a funfriend",
 
 
         "cashier": cor_ru.entity_menu["cashier"].name,
@@ -94,7 +94,7 @@ env.localization.page['citystreet'] = {dialogues: {},
         "menu": cor_ru.entity_menu["menu"].name,
         "cloaked streetwalker": cor_ru.entity_menu["cloaked streetwalker"].name,
         "the room high up": cor_ru.entity_menu["the room high up"].name,
-        'the roothe room hithe room gh u the roomp': 'ко ком ата выкомн ат сокомнаве рх о вер ху',
+        'the roothe room hithe room gh u the roomp': 'la salla sala dla sala bd a la salarr',
     },
     entityDescriptions: {
         "cashier": cor_ru.entity_menu["cashier"].desc,
@@ -102,10 +102,10 @@ env.localization.page['citystreet'] = {dialogues: {},
         "menu": cor_ru.entity_menu["menu"].desc,
         "cloaked streetwalker": cor_ru.entity_menu["cloaked streetwalker"].desc,
         "the room high up": cor_ru.entity_menu["the room high up"].desc,
-        'the roothe room hithe room gh u the roomp': `::ЭМПИРИЧЕСКАЯ МЫСЛЕФОРМА
-    ::НЕВИЗУАЛИЗИРУЕМА
-    <span style="color: var(--obesk-color)" definition="АНАЛИЗ::'пункт назначения превышает порог бессвязности';'рекомендуется починка'">::ЗАПРЕДЕЛЬНАЯ БЕССВЯЗНОСТЬ</span>
-    ::УНАСЛЕДОВАННЫЙ КОНТЕКСТ::<span style='color: var(--obesk-color)'>'молчи молчи молчи молчи молчи молчи молчи'</span>`,
+        'the roothe room hithe room gh u the roomp': `::IDEOFORMA EXPERIENCIAL
+    ::NO RENDERIZABLE
+    <span style="color: var(--obesk-color)" definition="ANÁLISIS::'destino excede límite de incoherencia';'se recomienda la reparación'">::INCOHERENCIA PROHIBITIVA</span>
+    ::CONTEXTO HEREDADO::<span style='color: var(--obesk-color)'>'silencio silencio silencio silencio silencio silencio'</span>`,
     }  
 }
 
@@ -117,50 +117,49 @@ env.localization.page['citystreet'] = {dialogues: {},
 env.localization.page['citystreet'].dialogues.mthresp = generateDialogueObject(`
 RESPOBJ::
     RESPONSES::self
-        где это было?<+>where
-        не могу дальше?<+>elevatorblock
+        ¿donde ocurrió esto?<+>where
+        no puedo progresar<+>elevatorblock
             SHOWIF::[['interview1__firstchat-behonest', false], ['citystreet_triedchat', true]]
 
-        неважно<+>CHANGE::++moth
-            FAKEEND::(назад)
+        no importa<+>CHANGE::++moth
+            FAKEEND::(atras)
 `)
 env.localization.page['citystreet'].dialogues["mth++citystreet"] = generateDialogueObject(`
 start
     self
-        у меня есть вопрос об этой мыслеформе
-
+        tengo una pregunta sobre esta ideoforma
     moth
-        смотрю на вывод, чё как?
+        la estoy viendo ahora mismo en mi feed- que pasa? 
     
     RESPOBJ::mthresp
 
 where
     self
-        где бы это могло быть?
+        ¿dónde podría haber ocurrido esto?
     
     moth
-        ну я не думаю что на земле существует хоть одна улица которая выглядит вот так лол
-        но вообще, она же была одним из тех разъездных дипломатов в те времена когда их ещё рассылали
-        хз как новая зеландия тогда выглядела, но я знаю что у бюро был там офис
+        no creo que haya una sola calle en la tierra con esta pinta lol
+        aún así, akizet se movía bastante-
+        no se que pinta tenía nueva zelanda por entonces, pero se que el buró tuvo allí oficina
             SHOWIF::["citystreet__envoy-talkpeople", false]
-        так что мб это бессвязное пространственное воспоминание о том месте
+        puede que esto sea una memoria espacial incoherente de eso
             SHOWIF::["citystreet__envoy-talkpeople", false]
-        гордон упомянул что это где-то "в штатах"... так что наверно США
+        gordon mencionó que estaba en "los estados"... o sea que probablemente alguna parte de eeuu
             SHOWIF::["citystreet__envoy-talkpeople", true]
-        возможно где-то на западном побережье? там старая штаб-квартира находилась
+        puede que en la costa oeste? es donde estaba la vieja oficina
             SHOWIF::["citystreet__envoy-talkpeople", true]
 
     RESPOBJ::mthresp
 
 elevatorblock
     self
-        у меня не получается зайти в лифт...
+        no me deja entrar al ascensor...
     
     moth
-        эт странно
-        хотелось бы сказать что это бессвязность, но факт того что личность посла в остальном цела...
-        кажись что-то ещё вносит изменения--твой мыслекол даже доложил что данные были удалены
-        ну похоже с этим не повезло. но вообще и в других местах есть на что посмотреть
+        que extraño
+        mi primer instinto sería que se trata de incoherencia, pero la personalidad del enviado está intacta menos esto
+        parece que algo lo está cambiando-- tu clavo dijo que se habían extraido recursos
+        puede que no podamos progresar más aquí. parece que hay mucho por ver en otras partes
 
     RESPOBJ::mthresp
 `)
@@ -171,295 +170,295 @@ elevatorblock
 env.localization.page['citystreet'].dialogues.envoyStreetResponses = generateDialogueObject(`
 RESPOBJ::
     RESPONSES::akizet
-        поговорить с людьми?<+>talkpeople
+        ¿hablar con la gente?<+>talkpeople
             
-        кафе?<+>cafe
+        ¿café?<+>cafe
 
-        давайте пойдём дальше<+>END
+        prosigamos<+>END
 `)
 env.localization.page['citystreet'].dialogues["envoy"] = generateDialogueObject(`
 start
     sourceless
-        Я ОСТАНАВЛИВАЮСЬ, И ПОСОЛ ТОЖЕ. МЫ ОБМЕНИВАЕМСЯ ВЗГЛЯДАМИ
+        ME DETENGO, Y EL ENVIADO HACE LO MISMO. DEVUELVE MI MIRADA
         
     akizet
-        я ценю ваше дозволение, гордон
+        aprecio mucho que permitas esto, gordon
             SHOWONCE::
-        я понимаю, что здесь до сих пор держится некоторый страх...
+        entiendo que sigue habiendo algún miedo persistente...
             SHOWONCE::
-        особенно в таких многолюдных местах.
+        especialmente en estas zonas densas.
             SHOWONCE::
         
     envoy
-        Эй, без проблем. И не беспокойтесь об этом, здесь большинство отнесётся к Вам нормально.
+        Eh, no es un problema. Y no te preocupes- la mayoría de las personas te tratarán bien por estas partes
             SHOWONCE::
-        Будь это Чикаго, или Нью-Йорк, или что ещё, мы бы Вас на крышу приземлили, но...
+        Si estuviésemos en Nueva York o Chicago, por ejemplo, te pediríamos aterrizar en el techo, pero...
             SHOWONCE::
-        В последнее время бюро очень загружено, и у нас было так много обесков-гостей,
+        Con lo ocupado que ha estado el buró, hemos tenido tantos visitantes obesk,
             SHOWONCE::
-        Что теперь Ваш народ считай что часть города.
+        Ya sois practicamente una parte de la ciudad.
             SHOWONCE::
     
     sourceless
-        ОН ДОСТАЁТ МЕТАЛЛИЧЕСКИЙ КОММУНИКАТОР ИЗ ПОЛОСТИ В СВОЕЙ КОЖАНОЙ НАКИДКЕ И ИЗУЧАЕТ ЕГО СВЕЧЕНИЕ
+        PRODUCE UN COMUNICADOR DE METAL DE UNA CAVIDAD EN SU CAPA DE PIEL, Y OBSERVA SU LUZ
             SHOWONCE::
 
     envoy
-        И, честно говоря, это способствует общественному имиджу. Видеть вас здесь, среди людей...
+        Y la verdad es que ayuda con la imagen pública. Veros por la calle, con la gente...
             SHOWONCE::
-        Помогает придушить ту грёбаную вирусную панику.
+        Ayuda a eliminar esas malditas teorías virales.
             SHOWONCE::
     
     akizet
-        ах, я не учла этот элемент
+        ah, no había considerado ese elemento
             SHOWONCE::
-        я соглашусь!
+        ¡estoy de acuerdo!
             SHOWONCE::
 
     envoy
-        Кстати говоря, об общественном имидже,
+        Sabes qué, hablando de la imagen pública...
             SHOWONCE::
     
     sourceless
-        ОН ВОЗВРАЩАЕТ КОММУНИКАТОР В ПОЛОСТЬ
+        DEVUELVE EL COMUNICADOR A SU CAVIDAD
             SHOWONCE::
 
     envoy
-        Есть одно небольшое место неподалёку - кафе. Перед тем, как продолжить, почему бы нам не заглянуть в него?
+        Hay un pequeño cafe allí alante. ¿Por qué no paramos allí antes de entrar?
             SHOWONCE::
-        Просто пойдёмте вперёд, оно сразу после бюро.
+        Sigue recto, está justo al pasar el buró.
             SHOWONCE::
     
     RESPOBJ::envoyStreetResponses
     
 talkpeople
     akizet
-        ничего, если я повзаимодействую с вашими прохожими?
+        no será un problema si interactúo con sus andacalles, no?
     
     envoy
-        Вовсе нет! Всё в порядке, пока я рядом.
-        Как я и говорил - это, пожалуй, наиболее дружелюбный к обескам город в штатах.
-        В худшем случае Вы наткнётесь на парочку угрюмых взглядов. Вряд ли вирусные конспирологи все разом пропали.
+        ¡Para nada! Mientras esté yo, no es un problema.
+        Como he dicho, estamos en una de las ciudades mas abiertas a obesk de los estados.
+        Lo peor que recibirás son unas miradas. Queda algún teórico viral todavía.
     
     akizet
-        я вижу!
+        ¡ya veo!
     
     RESPOBJ::envoyStreetResponses
 
 cafe
     akizet
-        где находится "кафе"?
+        ¿donde se encuentra el "café"?
     
     envoy
-        Совсем рядом. Просто идите вниз по улице, к ˜/ŒôФªœДЪ/д 0E@яркой жёлтой двери.
+        Muy cerca. Sigue recto, busca la ˜/ŒôfªœDŠ/d 0E@puerta amarilla.
     
     RESPOBJ::envoyStreetResponses
 `)
 env.localization.page['citystreet'].dialogues["envoychat"] = generateDialogueObject(`
 syscheck
     RESPONSES::self
-        продолжить<+>start
+        continuar<+>start
             EXEC::change("PAGE!!skipcheck", true)
             HIDEREAD::
-        пропустить<+>ep1extension
+        saltar<+>ep1extension
             EXEC::env.citystreet.envoyChat(false, true)
             HIDEREAD::
 
 start
     sys
-        ВНИМАНИЕ::'ранее просмотренный поток';'соединяется с дополнительным потоком';'пропустить вперёд?'
+        ATENCIÓN::'flujo visitado previamente';'conectada con flujo mnemónico adicional';'¿saltar?'
             SHOWIF::[["PAGE!!skipcheck", false], ["embassy_d2_complete", true], ["citystreet__envoychat-start", true]]
             WAIT::500
             EXEC::cutscene(true);page.formedDefinitionStrings = undefined;setTimeout(()=>{sendDialogue(env.currentDialogue.chain['syscheck']);cutscene(false);}, 1000)
 
     sourceless
-        МЫ С ПОСЛОМ СТУПАЕМ В ТУСКЛУЮ КОМНАТУ ДЛЯ ПЕРЕГОВОРОВ, ГДЕ ЗАДЁРНУТЫЕ ШТОРЫ ВЫРАЖАЮТ ЛЮБЕЗНОЕ ПРИЗНАНИЕ НАШИХ ПРЕДПОЧТЕНИЙ
+        EL ENVIADO Y YO ENTRAMOS A UNA SALA DE REUNIONES. LA LUZ ES TENUE, UN GESTO AMABLE CONSIDERANDO NUESTRAS PREFERENCIAS
             EXEC::change("PAGE!!skipcheck", false)
-        МЫ САДИМСЯ. ОН СТАВИТ МЕТАЛЛИЧЕСКУЮ КОРОБКУ НА СТОЛ. МОИ РЕЦЕПТОРЫ ЗАВИТЫ В СПИРАЛИ. БУДЕТ ТРУДНО
+        NOS SENTAMOS. PONE EN LA MESA UNA PEQUEÑA CAJA METÁLICA- MIS RECEPTORES ESTAN CURVADOS EN ESPIRALES. ESTO VA A SER COMPLICADO
         
     envoy
-        Итак, Акизет, что Вы нашли? Мы довольно-таки давно не разговаривали лично.
+        Bueno, Akizet- ¿Qué has encontrado? Hace un buen rato desde que has venido a hablar en persona.
     
     akizet
-        да, прошло немало времени! я была поглощена нашею работою, видите ли
-        и пусть с точки зрения прогресса всё идёт хорошо, я не могу сказать, что довольна нашими находками
+        ¡si, hace bastante que no nos vemos! Comprenderas, he estado consumida con nuestro trabajo.
+        y pese a que en terminos de progreso va bien, no puedo decir que estoy feliz con nuestros descubrimientos.
     
     sourceless
-        ЕГО ГЛАЗА НАПОЛНЯЮТСЯ БЕСПОКОЙСТВОМ. ОН НЕ ХОЧЕТ ПЕРЕБИВАТЬ
-        Я ПОНИМАЮ, ПОЧЕМУ. ЕЩЁ НА ПРОШЛОЙ ВСТРЕЧЕ Я ЧУВСТВОВАЛА ОПТИМИЗМ, ЧТО ИЗДАВНА НЕ УКРАШАЛ НЫНЕШНИЙ θглаз
+        HAY UNA PREOCUPACIÓN MARCADA EN SUS OJOS. NO QUIERE INTERRUPMIRME
+        ENTIENDO POR QUÉ; LA ÚLTIMA VEZ QUE HABLAMOS, SENTÍA UN OPTIMISMO QUE NO HA BENDECIDO ESTE θOJO EN TIEMPO
     
     akizet
-        видите ли, за всё то время, что зов вопил в линиях нашей связи,
-        у нас никогда не было возможности определить, что именно он передаёт
-        у нас и до сих пор её нет... однако мы знаем, <em>как</em> он это передаёт
+        veras, a lo largo de todo el tiempo que la llamada ha sido gritada en nuestras comunicaciones,
+        nunca hemos podido identificar precisamente lo que está diciendo
+        y seguimos sin poder hacerlo... pero sabemos <em>como</em> se está diciendo
 
     sourceless
-        Я ПРИОСТАНАВЛИВАЮСЬ. НА СЛИШКОМ ДОЛГО. Я ДОЛЖНА ОСТОРОЖНО ПОДБИРАТЬ СЛОВА
-        ОН ДЕЛАЕТ ГЛОТОК ИЗ СВОЕГО МАЛЕНЬКОГО НАПИТКА
+        DEJO DE HABLAR. POR DEMASIADO TIEMPO. DEBO ELEGIR CON CUIDADO MIS PALABRAS
+        TOMA UN SORBO DE SU BEBIDA
             SHOWIF::[["citystreet_gotdrinks"]]
     
     envoy
-        Текущая теория гласит, что это просто звук, транслируемый для привлечения внимания, верно?
-        Хотите сказать, это больше не так?
+        La teoría principal era que se trata de ruido siendo emitido para captar la atención, ¿no?
+        ¿Me estas diciendo que ya no es el caso?
 
     akizet
-        да, именно...
-        по правде говоря, это целенаправленная передача, и она пытается выразить что-то конкретное
-        его метод - не что-то используемое в наших современных коммуникациях, ему недостаёт многих оптимизаций
-        это можно описать как сырую мысль
+        si, exacto...
+        la realidad es que es una transmisión intencional, e intenta comunicar algo concreto
+        el método no es uno que se use en nuestras comunicaciones modernas; es anterior a muchos avances que se han hecho desde entonces
+        podría describirse como pensamiento crudo
 
     sourceless
-        ЕГО ЛИЦО ИСКРИВЛЯЕТСЯ В ЗАМЕШАТЕЛЬСТВЕ. НЕУЖЕЛИ ОН МНЕ НЕ ВЕРИТ?
+        SU CARA SE CONTORSIONA EN CONFUSIÓN. NO ME CREE?
     
     envoy
-        Так, и что он говорит?
-        ...И как Ваша команда пришла к этому?
-        Разве вы не слушаете его уже на протяжении... скольки, тридцати двух лет? 
+        En ese caso, ¿que está diciendo?
+        ¿...y como ha llegado tu equipo a esa conclusión?
+        No habeis estado escuchando a esta cosa por unos 32 años? 
     
     akizet
-        ваш ответ приходится простым, гордон:
-        сообщение не завершено. но, наконец, оно совпало с достаточным количеством паттернов, чтобы мы могли подтвердить его методы
-        и спустя всё это время он достиг того, что мы считаем...
-        хмм...
-        быть может, больше половины его полной длины,
-        и мы не в силах обработать это сообщение до тех пор, пока не получим его практически целиком
+        la respuesta es simple, gordon:
+        el mensaje no está completo. pero ha coincidido con los suficientes patrones para determinar sus métodos
+        ha tardado todo este tiempo en llegar a lo que creemos ser...
+        hmm...
+        quizas la mitad de su longitud total,
+        y no podemos procesarlo hasta tenerlo entero
     
     sourceless
-        ОН ПЯЛИТСЯ НА МЕНЯ, ЖДУЩИЙ, ЗАМЕРШИЙ, СБИТЫЙ С ТОЛКУ
-        Я ЛОВЛЮ СЕБЯ НА ТОМ, ЧТО ПРОТЫКАЮ КРЫШКУ СВОЕГО АПЕЛЬСИНОВОГО НАПИТКА ОСТРЫМИ КОНЦАМИ ПАЛЬЦЕВ, ОТКЛАДЫВАЯ СВОИ СЛЕДУЮЩИЕ СЛОВА
+        ME MIRA FIJAMENTE, ESPERANDO CONFUSO
+        ME DISTRAIGO HACIENDO PEQUEÑOS AGUJEROS EN LA TAPADERA DE MI BEBIDA NARANJA CON LOS PUNTOS DE MIS DEDOS PARA ATRASAR MIS PRÓXIMAS PALABRAS
             SHOWIF::[["citystreet_gotdrinks"]]
-        МНЕ ПОКА НЕ СТОИТ УПОМИНАТЬ БОЛЕЕ ТОНКИЕ ДЕТАЛИ
+        NO DEBERÍA HABLAR EN MAS DETALLE POR AHORA
     
     akizet
-        ...чтобы вы понимали, изображение сельки данным образом заняло бы целый день
-        тот, кто бы ни слал это сообщение, не просто пользуется архаичными средствами, но и передаёт нечто...
-        нечто настолько огромное, что, э,
-        мы все гадаем, сможем ли мы вообще его постичь
-        или если... ах... д-
+        ...para que lo entiendas, tardaría un día entero para representar a un celki en este medio
+        quien sea que envía este mensaje no solo está utilizando métodos arcáicos, pero transmite algo...
+        algo tan grande,  que, eh,
+        nos hemos preguntado si es siquiera posible comprenderlo
+        o, si se d-
     
     funfriend
-        РЕКОМЕНДАЦИЯ: НЕ ГОВОРИТЕ ЭТОГО
+        RECOMIENDACIÓN: NO DIGAS ESO
 
     sourceless
-        ДА, ТЫ ПРАВ
+        SI, TIENES RAZÓN
 
     envoy
-        Что?
+        ¿Que?
         
     akizet
-        ничего--извините, просто масштабы ситуации давят на меня
-        каждое новое открытие запутывает тайну об источнике зова только сильнее
-        и это недавнее достижение привнесло в работу моей команды лишь больше мрачной тишины
+        nada- lo siento, la escala de todo esto me ha estado pesando
+        el misterio del transmisor se vuelve mayor con cada descubrimiento
+        y este último desarrollo ha dejado a varios en mi equipo trabajando en un silencio solemne
     
     sourceless
-        ОН ДЕЛАЕТ ГЛОТОК, Я РАЗЛИЧАЮ НЕРВНОСТЬ В ЛЁГКОМ ДРОЖАНИИ ЕГО РУКИ
+        TOMA UN SORBO; VEO INCOMODIDAD EN LA LEVE VIBRACIÓN DE SU MANO
             SHOWIF::[["citystreet_gotdrinks"]]
-        ПЕРЕД ТЕМ, КАК ЗАГОВОРИТЬ, ОН НАКЛОНЯЕТСЯ ВПЕРЁД В СВОЁМ КРЕСЛЕ. В ЕГО ГЛАЗАХ ОТСТРАНЁННОСТЬ
+        ANTES DE HABLAR, SE APOYA EN LA MESA. SUS OJOS SON DISTANTES
 
     envoy
-        Господи...        
-        Акизет, если это и в самом деле правда--и Вы говорите, что эта теория <em>подтверждена</em>, так?
+        Santo cielo...        
+        Akizet, si todo esto es correcto--y has dicho que esta teoría esta <em>confirmada</em>, no?
     
     akizet
-        без доли сомнений, мой друг
-        устойчивые паттерны сырой мысли возникают на равных отрезках длины сообщения
+        sin duda, amigo mío
+        los patrones consistentes de pensamiento crudo aparecen en porcentages regulares de la longitud del mensaje
         
     envoy
-        Получается, эта вещь, что была у нас в океане ещё до того, 
-        как Ваш народ даже показался,
-        и использующая <em>обесковые</em> методы коммуникации,
-        разумна?
+        ¿Así que esta cosa que lleva en nuestro oceano,
+        antes de que aparecieseis vosotros,
+        y está utilizando métodos de comunicación <em>obesk</em>,
+        es inteligente?
     
     akizet
-        ну, нет, вероятно, не совсем так
-        она могла бы быть чем-то--корруцистозным, как и положено--что было обучено передаче этого сообщения
-        но в остальном, вы правы
+        bueno, no- puede que no sea el caso
+        puede que sea algo--corruquístico, como debe de ser--que ha sido entrenado para retransmitir este mensaje
+        menos eso, tienes la razón
     
     sourceless
-        ПОСОЛ ПРОВОДИТ КОНЧИКАМИ ПАЛЬЦЕВ ПО СВОИМ ВОЛОСАМ
+        EL ENVIADO SE PASA LOS DEDOS POR EL CABELLO
 
     envoy
-        Что же. Да, вот так новости. Теперь понятно, для чего Вам была вся эта приватность.
-        Кто ещё знает об этом?
+        Pues bueno. Sí, son noticias. Veo por qué querías hablar en privado esta vez.
+        ¿Cuantas personas saben esto?
     
     akizet
-        никто за пределами моей команды. мы все пока держим эту информацию при себе
-        эгоистично... но наши инициативы по торговле и исследованиям складываются так удачно с вашим народом
-        мы не хотим помешать им этою новостью
-        однако мы, моя команда, мы растеряны--мы должны ждать, 
-        мы должны ждать ещё очень долго с этим грузом на плечах
+        nadie fuera de mi equipo. estamos manteniendo privada la información por ahora
+        es egoista... pero nuestras iniciativas para el comercio y la investigación con vosotros van tan bien
+        no queremos irrumpir en ellas con estas noticias
+        pero nosotros, my equipo, estamos perdidos--debemos esperar,
+        debemos esperar mucho tiempo con esto en los hombros
     
     sourceless
-        ПОСОЛ ГРОМКО ВЫДЫХАЕТ И СЦЕПЛЯЕТ РУКИ
+        EL ENVIADO SUSPIRA Y ENTRELAZA LAS MANOS
 
     envoy
-        Хорошо, вот что я предлагаю.
-        Мне нужно поговорить с несколькими людьми. Мы будем держать эту информацию в конфиденциальности. Внутри, с бюро.
-        Вы же не считаете, что эта вещь может представлять угрозу?
+        Vale, aquí está mi propuesta.
+        Hay personas con las que tengo que hablar. Mantendremos confidencial esta información. Internamente, con el buró.
+        ¿Crees que podría ser una amenaza?
     
     sourceless
-        Я ПОСМЕИВАЮСЬ
+        ME RÍO
     
     akizet
-        она кричит вот уже тридцать второй год по вашему времени, 
-        и ей необходимо кричать и дальше, покуда мы не сможем различить в ней хоть какой-то смысл
-        я не думаю, что она планирует заниматься какою-либо другою деятельностью в это время
+        lleva 32 de vuestros años gritando,
+        y debe continuar muchos mas para que comenzemos a comprenderlo
+        no creo que tenga planeado participar en cualquier otra actividad, por ahora
     
     envoy
-        Ну, по крайней мере хоть что-то, а?
+        Bueno, al menos tenemos eso, ¿no?
     
     sourceless
-        ОН ВЫПИВАЕТ СВОЙ НАПИТОК ПЕРЕД ТЕМ, КАК ПРОДОЛЖИТЬ.
+        SE TOMA UN MOMENTO PARA TERMINARSE LA BEBIDA ANTES DE CONTINUAR
             SHOWIF::[["citystreet_gotdrinks"]]
 
     envoy
-        Есть ещё чем поделиться?
+        ¿Tienes algo mas que compartir?
 
     akizet
-        ничего, что имело бы такую же точность
-        у нас есть потнециальный радиус, где оно могло бы находиться, однако нам требуется дальнейшая полигонизация
-        примерно там же, где я и предположила на нашей прошлой встрече
+        nada con tanta seguridad
+        tenemos un radio para su localización, pero debemos hacer mas poligonización
+        es aproximadamente equivalente a mi estimación de cuando hablamos por última vew
     
     envoy
-        Понял. Тогда давайте здесь и закончим.
-        Акизет, пока что держите это в тайне. Не только Ваша сторона может встревожиться от подобного.
-        Будем на связи, хорошо?
+        Entiendo. Vayamos terminando, entonces.
+        Akizet, mantén esto secreto por ahora. No es solo tu lado a quienes les resultaría problemático.
+        Estaremos en contacto, ¿vale?
     
     sourceless
-        МЫ ОБА поднимаемся. я чувствую, как он разделяет тяжесть моей тревоги
+        AMBOS NOS LEVANTAMOS. SIENTO EL PESO DE MI PREOCUPACIÓN CAER SOBRE SUS HOMBROS
     
     akizet
-        разумеется, гордон
+        claro, gordon
     
     envoy
-        Пойдёмте, я Вас провожу.
+        Te acompaño a la puerta.
 
     sys
-        ВНИМАНИЕ::'окончен поток памяти';'визуализация прервана'
+        ATENCIÓN::'fin de flujo mnemónico';'renderización detenida'
             SHOWIF::["embassy_d2_complete", false]
 
     moth
-        окей... 
+        ok... 
             SHOWONCE::
-        кажись мы сейчас наткнулись на какую-то сверхсекретную информацию лмао потому что о такой части зова публично не известно
+        creo que acabamos de ver información muy secreta lmao, no me suena esta parte de la llamada
             SHOWONCE::
-        нас наверняка посадят подписывать соглашения о неразглашении после такого
+        probablemente nos hagan firmar ACDs tras esto
             SHOWONCE::
-        и акизет пошла за помощью к нам вместо своего народа?? интересно они об этом вообще в курсе
+        y akizet vinó a nosotros en busca de ayuda antes que sus propios compañeros?? me pregunto si saben de esto siquiera
             SHOWONCE::
-        хотелось бы назвать воспоминание бессвязным но оно слишком хорошо сформулировано
+        quiero decir que se trata simplemente de una memoria incoherente, pero está demasiado bien estructurada
             SHOWONCE::
-        не знаю как это воспринимать.
+        la verdad es que no se como interpretar esto
             SHOWONCE::
-        но не обращай на меня внимания, делай своё дело
+        pero vamos, tu sigue con lo tuyo
             SHOWONCE::
 
     sys
-        ВНИМАНИЕ::'продлён поток памяти';'продолжить визуализацию?'
+        ATENCIÓN::'el flujo mnemónico se extiende';'¿continuar renderización?'
             SHOWIF::["embassy_d2_complete", true]
     
     RESPONSES::self
-        завершить вспоминание<+>END
+        continuar recuerdo<+>END
             EXEC::env.citystreet.envoyChat(false, true)
 `)
 
@@ -469,67 +468,65 @@ start
 env.localization.page['citystreet'].dialogues["walker3"] = generateDialogueObject(`
 start
     sourceless
-        Я ОСТАНАВЛИВАЮСЬ ВОЗЛЕ ВХОДА В БЮРО, ЧТОБЫ РАССМОТРЕТЬ СВЕТЛОГО БЛИЗНЕЦА, ОДЕТОГО, КАК ПОСОЛ
-        ОН РАЗГОВАРИВАЕТ В МАЛЕНЬКИЙ КОРОБЧАТЫЙ КОММУНИКАТОР, ПРИЖАВ К ЕГО ЛИЦУ И НЕ ЗАМЕЧАЯ НАС
-
+        ME DETENGO AL LADO DE LA ENTRADA AL BURÓ PARA OBSERVAR A UN PRIMO BRILLANTE VESTIDO IGUAL QUE EL ENVIADO
+        HABLA POR UN PEQUEÑO COMUNICADOR QUE SOSTIENE CON LA MANO, SIN PERCATARSE DE MI
     cloaked streetwalker
-        ...не сдвинулось с мёртвой точки, так что это было всё равно, что смотреть, как краска сохнет на стене. Невыносимо просто.
-        В общем, мне пришлось взять ещё больше кофе, иначе я бы точно храпу дал...
+        ...no fue a ninguna parte, terminó siendo como ver secarse la pintura. Horrible.
+        Al final tuve que ir a por aún mas cafe para no dormirme...
     
     sourceless
-        то, как они через них разговаривают, всегда выглядит так глупо
-        КАКИМ ЖЕ ОБРАЗОМ ИХ СЛОВА ОБРАЩАЮТСЯ МОЛНИЕЙ?
-        ПОСОЛ НАКЛОНЯЕТСЯ ПОБЛИЖЕ, ЧТОБЫ УЗНАТЬ, ПОЧЕМУ Я ОСТАНОВИЛАСЬ, И СЛЕДУЕТ МОЕМУ ВЗГЛЯДУ
-        ОН ГОВОРИТ НЕГРОМКО, ОПАСАЯСЬ ПРИВЛЕЧЬ ВНИМАНИЕ ПРОХОЖЕГО В ПЛАЩЕ
+        SIEMPRE ME ES TAN GRACIOSO CUANDO HABLAN CON A TRAVES DE ESOS DISPOSITIVOS
+        ¿COMO SE TRANSFORMAN EN RELÁMPAGOS SUS PALABRAS?
+        EL ENVIADO SE GIRA PARA VER LO QUE ME HA DISTRAIDO
+        HABLA EN VOZ BAJA PARA NO ATRAER LA ATENCIÓN DEL ANDACALLES ENCAPOTADO
     
     envoy
-        Что такое?
-        Вы знакомы с Оливером?
+        ¿Que ocurre?
+        ¿Conoces a Oliver?
 
     akizet
-        хмм...
-        нет, я всего лишь заворожена вашими средствами связи
-        говорить так громко, без единой остановки, сулило бы верную смерть на моей прежней должности 
+        hmm...
+        no, simplemente me fascinan vuestros comunicadores
+        hablar con tal volumen, de forma tan constante, significaría la muerte segura en mi ocupación previa
     
     envoy
-        Вы работали на поверхности, верно?
+        ¿Trabajabas en la superficie, no?
     
     akizet
-        да, время от времени! до того, как--
+        ¡si, de forma intermitente! antes del surgimiento de--
     
     sourceless
-        ПРОХОЖИЙ В ПЛАЩЕ ЗАХЛОПЫВАЕТ СВОЙ КОММУНИКАТОР И ОГЛЯДЫВАЕТСЯ, ТУТ ЖЕ ЗАМЕЧАЯ НАС
-        ОН ШИРОКО УЛЫБАЕТСЯ И ЖЕСТОМ ПРИГЛАШАЕТ НАС ПОДОЙТИ БЛИЖЕ
+        EL ANDACALLES ENCAPOTADO COLAPSA SU COMUNICADOR Y ECHA UN VISTAZO A SU ALREDEDOR, RÁPIDAMENTE VIENDONOS
+        SONRÍE AMPLIAMENTE Y SE ACERCA A NOSOTROS
 
     cloaked streetwalker
-        Эй! Гордон! Кто это?
+        ¡Ey, gordon! ¿Quién te acompaña?
             EXEC::body.classList.add('zoom')
-        Дай-ка угадаю, инициатива по обмену?
+        Dejame adivinar, ¿iniciativa de intercambio?
     
     envoy
-        Вообще-то, Оливер, это Акизетеше! Инициатива "Сигнал".
+        ¡De hecho, Oliver, esta es Akizetesche! Iniciativa de "señal".
 
     cloaked streetwalker
-        Ахереть! Не знал, что тебя на это назначили.
-        Рад встрече, Акизетеше!
+        ¡Ostiá! No sabía que te habían asignado en eso.
+        Encantado de conocerla, Akizetesche.
 
     sourceless
-        Я НАКЛОНЯЮ СВОЮ ГОЛОВУ, ПОЧТИТЕЛЬНО ЗАГИБАЯ РЕЦЕПТОРЫ НАЗАД.
+        ASIENTO CON LA CABEZA, RECEPTORES CURVADOS HACIA ATRAS DE FORMA RESPETUOSA
     
     akizet
-        точно так же и я, оливер, мой друг
-        можете звать меня акизет
+        lo mismo digo, oliver, mi amigo
+        puedes llamarme akizet
 
     cloaked streetwalker
-        Без б, Акизет.
-        И, эй, я бы даже рад поболтать, да только вот я заступаю на дежурство около десяти. 
-
+        Eso haré, Akizet.
+        Me encantaría charlar, pero tengo que estar en el puesto en unos 10 minutos.
     envoy
-        Всё в порядке, Оливер. Нам тоже пора бы заняться делами.
-        Увидимся.
+        No te preocupes, Oliver. Nosotros también tenemos a donde ir.
+        Nos vemos.
     
     RESPONSES::akizet
-        простимся<+>END
+        adios<+>END
             EXEC::body.classList.remove('zoom')
 `)
 
@@ -539,17 +536,17 @@ start
 env.localization.page['citystreet'].dialogues["cafemenu"] = generateDialogueObject(`
 start
     sourceless
-        ЭТО - ИХ МЕНЮ?
-        НЕВЕРОЯТНО...
-        ЕГО ПРАКТИЧЕСКИ НЕВОЗМОЖНО РАЗОБРАТЬ
-        Я РАЗЛИЧАЮ "АПЕЛЬСИН" - БЫТЬ МОЖЕТ, ЦИТРУСОВЫЙ НАПИТОК?
-        СВЕТЛЫЕ БЛИЗНЕЦЫ НАСТОЛЬКО ИЗОБИЛУЮТ ЦИТРУСОВЫМИ КИСЛОТАМИ, ЧТО ПРОИЗВОДЯТ ИЗ НИХ НЕБОЛЬШИЕ НАПИТКИ...
-        РАЗВЕ НЕ БЛАГОДАТЬ?
-        Я ПРИКАЗЫВАЮ СВОЕМУ РТУ СКОНСТРУИРОВАТЬ ЭКВИВАЛЕНТЫ ВКУСОВЫХ РЕЦЕПТОРОВ. ПРОШЛО СТОЛЬКО ВРЕМЕНИ!
+        ¿ESTE ES EL MENÚ?
+        INCREIBLE...
+        ES CASI COMPLETAMENTE ILEGIBLE
+        VEO "NARANJA"... ¿UNA BEBIDA CÍTRICA, QUIZAS?
+        LOS PRIMOS BRILLANTES ESTÁN TAN REPLETOS CON ACIDOS CÍTRICOS QUE PRODUCEN CON ELLOS PEQUEÑAS BEBIDAS...
+        ¿NO ES ESTE EL PARAISO?
+        ORDENO A MI BOCA CONSTRUIR EQUIVALENTES A LAS PAPILAS GUSTATIVAS. ¡HA PASADO TANTO TIEMPO!
             EXEC::change('citystreet_orangecoffee', true)
     
     RESPONSES::akizet
-        изумительно<+>END
+        fantástico<+>END
 `)
 
 
