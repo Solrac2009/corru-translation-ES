@@ -7,3 +7,6 @@ Puedes ayudarnos revisando traduciones previas o traduciendo partes del juego qu
 
 (We pull from the russian translation and replace theirs with ours)
 (Copiamos la traducción rusa y reemplazamos con lo nuestro)
+
+Import the mod by pasting https://solrac2009.github.io/corru-translation-ES/cor-RU-main/cor-RU.js on the mod importer field
+Importa el mod pegando https://solrac2009.github.io/corru-translation-ES/cor-RU-main/cor-RU.js en el campo para importar los mods
