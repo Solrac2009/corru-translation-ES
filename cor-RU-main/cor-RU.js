@@ -68,8 +68,8 @@ if (window.location.pathname == '/credits') {
     throw new Error("hi dont mind me cor-RU is not supposed to load properly in credits")
 }
 else if ((page.path == '/' && !check('TEMP!!sat') && check('ep0_epilogue') && !check('ep1_showmaterials')) || env.ep1 == true) {
-    chatter({actor: 'actual_site_error', text: "hi! cor-RU is availiable only for ep0<br>приветик! cor-RU доступен только для ep0", readout: true})
-    throw new Error("hi! сor-RU is availiable only for ep0")
+    chatter({actor: 'actual_site_error', text: "hi! Spanish translation is availiable only for ep0<br>¡Hola! La traducción española solo está disponible para el ep0", readout: true})
+    throw new Error("hi! Spanish translation is availiable only for ep0")
 }
 
 env.localization = {
@@ -529,27 +529,27 @@ body[quality="low"] .quality::after { content: "Качество: НИЗКОЕ" 
     // loading and updating stuff as we go
 
     list: {
-        everything: "https://cor-ru.github.io/cor-RU/localization/everystuff.js",
+        everything: "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/everystuff.js",
         page: {
-            fbx:                "https://cor-ru.github.io/cor-RU/localization/basement.js",
+            fbx:                "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/basement.js",
 
-            hello:              "https://cor-ru.github.io/cor-RU/localization/auth-layer.js",
-            hub:                "https://cor-ru.github.io/cor-RU/localization/hub.js",
+            hello:              "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/auth-layer.js",
+            hub:                "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/hub.js",
 
-            localcity:          "https://cor-ru.github.io/cor-RU/localization/their-city.js",
-            citystreet:         "https://cor-ru.github.io/cor-RU/localization/city-surface.js",
+            localcity:          "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/their-city.js",
+            citystreet:         "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/city-surface.js",
 
-            localorbit:         "https://cor-ru.github.io/cor-RU/localization/the-void.js",
-            dullvessel:         "https://cor-ru.github.io/cor-RU/localization/our-dull-vessel.js",
+            localorbit:         "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/the-void.js",
+            dullvessel:         "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/our-dull-vessel.js",
 
-            localocean:         "https://cor-ru.github.io/cor-RU/localization/their-waters.js",
-            localship:          "https://cor-ru.github.io/cor-RU/localization/their-vessel.js",
-            interview1:         "https://cor-ru.github.io/cor-RU/localization/the-funny-little-room.js",
+            localocean:         "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/their-waters.js",
+            localship:          "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/their-vessel.js",
+            interview1:         "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/the-funny-little-room.js",
 
-            localdepths:        "https://cor-ru.github.io/cor-RU/localization/the-depths.js",
+            localdepths:        "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/the-depths.js",
         },
-        entityMenu: "https://cor-ru.github.io/cor-RU/localization/entity-menu.js",
-        load:       "https://cor-ru.github.io/cor-RU/load.js",
+        entityMenu: "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/localization/entity-menu.js",
+        load:       "https://solrac2009.github.io/corru-translation-ES/cor-RU-main/load.js",
     },
 
     updateResources: function (fresh = false) {
