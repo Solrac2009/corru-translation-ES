@@ -1,6 +1,6 @@
 /*
-    cor-RU - a russian localization mod for corru.observer;
-    see https://github.com/cor-RU/cor-RU for more info
+    Spanish translation based on cor-RU - a russian localization mod for corru.observer;
+    see and https://github.com/Solrac2009/corru-translation-ES https://github.com/cor-RU/cor-RU for more info
 
     > localization/their-waters.js
     localization for /local/ocean
