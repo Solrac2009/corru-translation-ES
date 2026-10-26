@@ -8,8 +8,8 @@
 
 
 /*
-    cor-RU - a russian localization mod for corru.observer;
-    see https://github.com/cor-RU/cor-RU for more info
+    Spanish translation based on cor-RU - a russian localization mod for corru.observer;
+    see and https://github.com/Solrac2009/corru-translation-ES https://github.com/cor-RU/cor-RU for more info
 
     > cor-RU.js
     important code!!! and loads the whole mod!!! yay!!!
@@ -627,8 +627,8 @@ env.entities['advance log'] = {
     ]  
 }
 
-console.log("%c(en) contact @dutokrisa, @bra1nslug_ on discord or @bruhslug on telegram if you have any questions, requests, suggestions or bugs to report. also availiable, albeit not recommended for non-russian speakers: anonymous google form (https://forms.gle/HHGhd4zU3VmJQgPCA), discord server (https://discord.gg/QtqqCh8myn) - @cor-RU", cor_ru.fancy.general)
-console.log("%c(ru) свяжитесь с @dutokrisa, @bra1nslug_ в дискорде или @bruhslug в телеграме, если есть вопросы, просьбы, предложения или надо зарепортить баг. также доступны: анонимная гугл форма (https://forms.gle/HHGhd4zU3VmJQgPCA), дискорд сервер (https://discord.gg/QtqqCh8myn) - @cor-RU", cor_ru.fancy.general)
+console.log("%c(en) contact [FILL OUR OWN USERNAMES BEFORE SHIPPING CODE]", cor_ru.fancy.general)
+console.log("%c(es) contactad a [RELLENAR CON NUESTROS USUARIOS ANTES DE ENVIAR]", cor_ru.fancy.general)
 
 if (!document.querySelector("#cor-rucss")) {
     document.head.appendChild(

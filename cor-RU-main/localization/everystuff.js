@@ -1,6 +1,6 @@
 /*
-    cor-RU - a russian localization mod for corru.observer;
-    see https://github.com/cor-RU/cor-RU for more info
+    Spanish translation based on cor-RU - a russian localization mod for corru.observer;
+    see and https://github.com/Solrac2009/corru-translation-ES https://github.com/cor-RU/cor-RU for more info
 
     > localization/everystuff.js
     behold! the most poorly organized file in this entire mod! though that makes sense, its basically a remnant from the times we were writing cor-ru in one big file, not really having structure or direction! scary
