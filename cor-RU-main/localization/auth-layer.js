@@ -8,21 +8,22 @@
 */
 
 
-env.localization.page['hello'] = {dialogues: {},
-    definitions: {}, 
+env.localization.page['hello'] = {
+    dialogues: {},
+    definitions: {},
     strings: {
         "FOR YOU": "PARA TI",
         "FOR_YOU": "PARA_TI",
-        "sentry": "CENTINELA",
-        "'thoughtform activity detected'::'advise re-examination'": "'detectada actividad ideoformal'::'se aconseja re-examinación'",
+        "sentry": "centinela",
+        "'thoughtform activity detected'::'advise re-examination'": "'actividad ideoformal detectada'::'se aconseja re-examinación'",
     },
     entityDescriptions: {
         "???": `::IDEOFORMA INCOMPLETA
-    ::FIRMA ILLEGIBLE
+    ::FIRMA ILEGIBLE
     <span style="color: var(--obesk-color)" definition="ANÁLISIS::'entidad fragmentada'">::INCOHERENCIA DETECTADA</span>`,
         "sentry": `::IDEOFORMA REACTIVA
     ::DESIGNIO EXPLÍCITO::'autorización'
-    <span style="color: var(--obesk-color)" definition="ANÁLISIS::'poca cohesión'">::INCOHERENCIA DETECTADA</span>`,
+    <span style="color: var(--obesk-color)" definition="ANÁLISIS::'cohesión baja'">::INCOHERENCIA DETECTADA</span>`,
         "gate::for you": `::IDEOFORMA CONECTIVA
     ::DESTINO::'ideoespacio interno desconocido'
     ::^&&Q@Wd181d0b0d0bcd0bed0b520d0b2d180d0b5d0bcd18f`
@@ -36,10 +37,10 @@ start
     moth
         joder
         estás bien? acabo de ver actividad altísima
-        no he visto antes algo así... no creo que te puedas conectar a este
+        nunca vi algo así... no creo que te puedas conectar a este
 
     sys
-        ATENCIÓN::'salida renderizable'
+        ATENCIÓN::'output renderizable'
 
     RESPONSES::sys
         renderizar<+>render
@@ -51,7 +52,7 @@ render
             WAIT::4500
 
     moth
-        sí, parece que no tiene front end. será algún componente
+        sí, parece que no tiene front-end. será nomás un componente
         si no encuentras nada nos rendimos
         ahora vuelvo, están pidiendo comida en la otra sala
     RESPONSES::self
@@ -82,7 +83,7 @@ start
         HOLA AMIG@
         FIRMA NO DETECTADA
         POR FAVOR, IDENTIFÍQUESE
-        ADICIONALMENTE: LAS RESERVAS DE COMBUSTIBLE ESTÁN BAJAS. SE RECOMIENDA ABASTECIMIENTO
+        ADICIONALMENTE: LAS RESERVAS DE COMBUSTIBLE ESTÁN BAJAS. SE RECOMIENDA ALIMENTAR
 
     RESPONSES::self
         identificar<+>iam
@@ -95,7 +96,7 @@ iam
         ESO NO ES IDENTIFICACIÓN
         ¿AYUDA? POR QUÉ IBA A NECESITAR...
             EXEC::document.querySelector('.maineye .eye').classList.add('wide')
-        NO, HAY ALGUN ERROR
+        NO, ALGO NO ESTÁ BIEN
         TENGO TANTA HAMBRE
             EXEC::document.querySelector('.maineye .eye').classList.remove('wide')
 
@@ -103,7 +104,7 @@ iam
 
 purpose
     self
-        ¿CUAL ES TU DESIGNIO?
+        CUAL ES TU PROPÓSITO?
 
     sentry
         LA AUTORIZACIÓN
@@ -117,14 +118,14 @@ purpose
 
 corrupurpose
     self
-        CUAL ES EL DESIGNIO DE ESTE CORRUQUISTE?
+        CUAL ES EL PROPÓSITO DE ESTE CORRUQUISTE?
         
 ____SHOWIF::[["hello__sentry-whoisverified", false]]
     sentry
         SE TRATA DE UN CONECTOR DE RED
         CUENTA TAMBIÉN CON FUNCIONALIDADES ADICIONALES NO ESTÁNDARES A PETICIÓN DE
-        LO SIENTO SE ME OLVIDO QUE TE FALTABA AUTORIZACIÓN 
-        TANTAS NAUSEAS AAJAJA
+        LO SIENTO SE ME OLVIDÓ QUE TE FALTABA AUTORIZACIÓN 
+        TANTO MAREO AAJAJA
         PUEDES NO HACER PREGUNTAS COMPROMETEDORAS
         AL MENOS HASTA PROPORCIONAR AUTORIZACIÓN VÁLIDA
 ____END
@@ -137,7 +138,7 @@ ____SHOWIF::[["hello__sentry-whoisverified"]]
         LO SIENTO NO SE DE DONDE HA SALIDO ESTA AGRESIÓN
             EXEC::change('hello_sentry_idiot', true);document.querySelector('.maineye .eye').classList.remove('squint')
         ME ES TÁN DIFICIL PENSAR
-        ¿TIENES COMBUSTIBLE?
+        NO TENDRÁS ALGO DE COMBUSTIBLE
 ____END
 
     RESPOBJ::generalsentryResponses
@@ -150,10 +151,10 @@ ____SHOWIF::[["hello__sentry-corrupurpose", false]]
     sentry
         SOLO HAY UNAS POCAS FIRMAS CON ACCESO A ESTE QUISTE
         SEGURAMENTE CONOCES A AQUELLOS A QUIENES LES PERTENECEN? SI NO COMO ESTÁS ACCEDIENDO A ESTO
-        QUIZAS DEBES DE HABLAR CON...
-        NO NO NO NO TIENES LA AUTORIZACIÓN NECESARIA PARA CONOCER ESO
-        OLVÍDALO
-        NO ENTIENDO POR QUÉ ME ES TAN DIFÍCIL ESTO
+        QUIZÁS DEBES DE HABLAR CON...
+        NO NO NO NO TIENES LA AUTORIZACIÓN NECESARIA PARA SABER ESO
+        OLVÍDATE DE LO QUE DIJE
+        NO ENTIENDO POR QUÉ ME ESTÁ SIENDO TAN DIFÍCIL ESTO
 ____END
 
 ____SHOWIF::[["hello__sentry-corrupurpose"]]
@@ -164,7 +165,7 @@ ____SHOWIF::[["hello__sentry-corrupurpose"]]
         YA ME ES COMPLICADO PENSAR SIN QUE ME MOLESTES
             EXEC::change('hello_sentry_idiot', true);document.querySelector('.maineye .eye').classList.remove('squint')
         LO SIENTO NO SE DE DONDE HA SALIDO ESTA AGRESIÓN
-        ¿TIENES COMBUSTIBLE?
+        NO TENDRÁS ALGO DE COMBUSTIBLE
 ____END
 
     RESPOBJ::generalsentryResponses
@@ -174,10 +175,10 @@ letthrough
         QUIZÁS SI ME DEJAS PASAR
 
     sentry
-        QUÉ?!
+        ¿¡QUÉ?!
             EXEC::document.querySelector('.maineye .eye').classList.add('squint')
         SOY INCAPAZ DE DEJARTE PASAR SIN UNA FIRMA EN CONDICIONES
-        AÚN SI QUIERO HACERLO
+        AUNQUE QUIERA
         ESTE QUISTE ES INHERENTEMENTE INCAPAZ DE RESPONDER A
             EXEC::env.hello.velzie();document.querySelector('.maineye .eye').classList.remove('squint');changeBgm(env.hello.velamb, {length: 4000})
             WAIT::3500
@@ -186,10 +187,10 @@ letthrough
         ..................
     
     sentry
-        QUE ES ESO
+        QUÉ ES ESO
 
     unknown
-        ¿pueden entrar, por favor?
+        ¿pueden entrar por favor?
             EXEC::env.hello.velzie()
     
     RESPONSES::self
@@ -207,9 +208,9 @@ posthello
         ..................
     
     moth
-        siento haber tardado tanto, no habían decidido todavia de donde pedir, y...
+        siento haber tardado tanto, no habían decidido todavia de donde pedir, así que...
             EXEC::env.hello.velzie()
-        sigues con la conexión activa? has encontrado algo?
+        sigues con la conexión activa? espera, de verdad encontraste algo?
     
     RESPONSES::self
         parece ser<+>END
